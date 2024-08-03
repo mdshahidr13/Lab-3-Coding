@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #007bff;
+  color: rgba(255, 255, 255, 0.356);
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #0056b3; /* Navbar background color */
+  position: fixed;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Pushes the brand to the leftmost */
+}
+header ul{
+  align-items: center;
+}
+
+header ul img {
+  width: 100px; /* Size of the image */
+  margin-right: 15px; /* Space between the image and text */
+  border-radius: 50%;
+}
+
+.navbar-nav {
+  flex-direction: row; /* Align nav items in a row */
+  justify-content: center; /* Center nav items */
+  width: 100%; /* Ensure the nav items span the full width */
+}
+
+.nav-item {
+  margin: 0 10px; /* Space between nav items */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  background-color: #0056b3;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid transparent; /* Thin border */
+  display: block;
+}
+
+.nav-link:hover {
+  background-color: #004494;
+  border: 1px solid #003366;
+  transform: scale(1.05);
+}
+
+.dropdown-menu {
+  background-color: #0056b3;
+  border: 1px solid #003366; /* Match dropdown border with navbar */
+  border-radius: 5px;
+  display: none; /* Hide dropdown by default */
+  position: absolute;
+  margin-top: 0; /* Adjust if needed */
+}
+
+.dropdown-item {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.dropdown-item:hover {
+  background-color: #004494;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+#notes {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#notes h2 {
+  font-size: 40px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#notes p {
+  font-size: 20px;
+  color: #34495e;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+
+#notes h4 {
+  font-size: 25px;
+  color: #2980b9;
+  margin-bottom: 10px;
+}
+
+#notes ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#notes ul li {
+  background: #ecf0f1;
+  border-left: 5px solid #3498db;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+#about-us {
+  background-color: #f9f9f9; 
+  border-radius: 8px; 
+  padding: 20px; 
+  margin-top: 20px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+#about-us h3 {
+  font-size: 2rem; 
+  color: #333; 
+  margin-bottom: 15px; 
+}
+
+#about-us h4 {
+  font-size: 1.5rem; 
+  color: #555; 
+  margin-top: 20px; 
+  margin-bottom: 10px; 
+}
+
+#about-us p {
+  font-size: 1rem; 
+  line-height: 1.6; 
+  color: #666; 
+}
+
+#about-us ul {
+  list-style-type: disc; 
+  padding-left: 20px; 
+}
+
+#about-us li {
+  margin-bottom: 10px; 
+}
+
+#about-us li strong {
+  color: #000; 
+}
+
+footer {
+  background-color: #0f6e35;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.footer-content h2 {
+  margin-top: 0;
+}
+
+.footer-content address {
+  font-style: normal;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.carouseldiv {
+  display: flex;
+  justify-content: center;
+  background-color: #0f6e3593;
+}
+
+/* Adjust the iframe to fit properly */
+iframe {
+  width: 800px !important;
+  height: 900px !important;
+  align-items: center;
+}
