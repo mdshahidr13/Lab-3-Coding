@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+    color: rgba(255, 255, 255, 0.356);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 56px; /* Adjust to avoid overlap with fixed navbar */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0056b3; /* Navbar background color */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Pushes the brand to the leftmost */
+}
+
+header ul {
+    align-items: center;
+}
+
+header ul img {
+    width: 100px; /* Size of the image */
+    margin-right: 15px; /* Space between the image and text */
+    border-radius: 50%;
+}
+
+.navbar-nav {
+    flex-direction: row; /* Align nav items in a row */
+    justify-content: center; /* Center nav items */
+    width: 100%; /* Ensure the nav items span the full width */
+}
+
+.nav-item {
+    margin: 0 10px; /* Space between nav items */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    background-color: #0056b3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid transparent; /* Thin border */
+    display: block;
+}
+
+.nav-link:hover {
+    background-color: #004494;
+    border: 1px solid #003366;
+    transform: scale(1.05);
+}
+
+.navimg img {
+    max-width: 100px;
+}
+
+section {
+    padding: 2rem;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+/* Styles for the form inputs */
+form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ced4da; /* Default border color */
+    border-radius: 0.25rem;
+}
+
+input.error {
+    border-color: #dc3545; /* Red border for errors */
+}
+
+input.success {
+    border-color: #28a745; /* Green border for success */
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.875rem;
+    display: block;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+}
+
+.foot {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 0.5rem;
+}
